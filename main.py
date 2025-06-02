@@ -6,7 +6,7 @@ import pandas as pd
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import geopandas as gpd
-from shapely.geometry import Point, LineStri
+from shapely.geometry import Point, LineString
 from shapely.ops import transform, nearest_points
 import shapely.vectorized as sv
 from k_means_constrained import KMeansConstrained
